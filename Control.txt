@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+  </head>
+
+  <body style="padding:30px;">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <div class="alert alert-info" role="alert">
+      <h4 class="alert-heading"></h4>
+      <font size="3">
+        <p style="text-align:center;">
+          <b>After watching the video, please answer the following questions:
+          </b> <br>
+        </p>
+      </font>
+      <div>
+        <div>
+          <label for="feel">1. How does this video make you feel? </label>
+          <p>
+            <input type="radio" name="feel" id="Very Sad"> Very Sad<br>
+            <input type="radio" name="feel" id="Sad"> Sad<br>
+            <input type="radio" name="feel" id="Nothing"> Nothing<br>
+            <input type="radio" name="feel" id="Happy"> Happy<br>
+            <input type="radio" name="feel" id="Very Happy"> Very Happy<br>
+          </p>
+        </div>
+
+
+        <div>
+          <label for="habit">2. Does this video make you want to change your habits? </label>
+          <p>
+            <input type="radio" name="habit" value="won't"> I won't change anything<br>
+            <input type="radio" name="habit" value="little"> I will change some<br>
+            <input type="radio" name="habit" value="will"> I will change a lot<br>
+          </p>
+        </div>
+
+        <div>
+          <label for="msg"></label>
+          <p> 3. What was the main conclusion in this video in your opinion?</p>
+          <textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Enter Text Here"></textarea>
+        </div>
+
+   <script>
+ function re() {
+   var a = document.getElementsByName('feel');
+   var b = document.getElementsByName('habit');
+   var ischecked_feel = false;
+   var ischecked_habit = false;
+    for ( var i = 0; i < a.length; i++) {
+      if(a[i].checked) {
+        ischecked_feel = true;
+        break;
+      }
+    }
+    for ( var j = 0; j < b.length; j++) {
+      if(b[j].checked) {
+        ischecked_habit = true;
+        break;
+      }
+    }
+    if(ischecked_habit==true && ischecked_feel==true){
+      window.location.href = 'Q1.html';
+    }
+    
+    else { // button is not checked
+      alert("Please answer all questions before continuing");
+    } 
+  }
+
+   </script>
+
+
+      </div>
+    </div>
+
+
+    <p style="text-align:center;">
+      <a onclick="re() "><button type="button" class="btn btn-info">Continue</button></a>
+    </p>
+  </body>
+
+</html>
+

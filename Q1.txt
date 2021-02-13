@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <main >
+    <body style="padding:30px;">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <div class="alert alert-info" role="alert">
+  <h4 class="alert-heading"></h4> <font size="3"> 
+ <p>
+  <b>Please rate your willingness to reveal the following information on a scale of 1 (will never share) to 7 (very likely to share)
+          </b> <br>
+        </p>
+    <div class="master-div-style">
+       <form id="survey-form" action="FinalQ.html" method="POST">
+
+           
+    <div>
+      <label for="name">Full Name </label>
+      <p>
+        <input type="radio" name="name" value="1"/> 1 &emsp;  
+        <input type="radio" name="name" value="2"/> 2 &emsp;
+        <input type="radio" name="name" required value="3"/> 3 &emsp;
+        <input type="radio" name="name" value="4"/> 4 &emsp;
+        <input type="radio" name="name" value="5"/> 5 &emsp;
+        <input type="radio" name="name" value="6"/> 6 &emsp;
+        <input type="radio" name="name" value="7"/> 7 &emsp;
+      </p>
+    </div>
+           <div>
+      <label for="date">Date of Birth </label>
+      <p>
+        <input type="radio" name="date" value="1"> 1 &emsp;
+        <input type="radio" name="date" value="2"> 2 &emsp;
+        <input type="radio" name="date" value="3"> 3 &emsp;
+        <input type="radio" name="date" value="4"> 4 &emsp;
+        <input type="radio" name="date" value="5"> 5 &emsp;
+        <input type="radio" name="date" required value="6"> 6 &emsp;
+        <input type="radio" name="date" value="7"> 7 &emsp;
+      </p>
+    </div>
+        <div>
+      <label for="user">Favorite online user-name </label>
+      <p>
+        <input type="radio" name="user" value="1"> 1 &emsp;
+        <input type="radio" name="user" value="2"> 2 &emsp;
+        <input type="radio" name="user" required value="3"> 3 &emsp;
+        <input type="radio" name="user" value="4"> 4 &emsp;
+        <input type="radio" name="user" value="5"> 5 &emsp;
+        <input type="radio" name="user" value="6"> 6 &emsp;
+        <input type="radio" name="user" value="7"> 7 &emsp;
+      </p>
+    </div>
+        
+  <div>
+      <label for="status">Relationship status </label>
+      <p>
+        <input type="radio" name="status" value="1"> 1 &emsp;
+        <input type="radio" name="status" value="2"> 2 &emsp;
+        <input type="radio" name="status" required value="3"> 3 &emsp;
+        <input type="radio" name="status" value="4"> 4 &emsp;
+        <input type="radio" name="status" value="5"> 5 &emsp;
+        <input type="radio" name="status" value="6"> 6 &emsp;
+        <input type="radio" name="status" value="7"> 7 &emsp;
+      </p>
+    </div>
+         <div>
+      <label for="apps">Apps installed on your mobile phone </label>
+      <p>
+        <input type="radio" name="apps" value="1"/> 1 &emsp;
+        <input type="radio" name="apps" value="2"/> 2 &emsp;
+        <input type="radio" name="apps" value="3"/> 3 &emsp;
+        <input type="radio" name="apps" value="4"/> 4 &emsp;
+        <input type="radio" name="apps" value="5"/> 5 &emsp;
+        <input type="radio" name="apps" required value="6"/> 6 &emsp;
+        <input type="radio" name="apps" value="7"/> 7 &emsp;
+      </p>
+    </div>
+          <div>
+      <label for="health">Previous and current health history </label>
+      <p>
+        <input type="radio" name="health" value="1"/> 1 &emsp;
+        <input type="radio" name="health" value="2"/> 2 &emsp;
+        <input type="radio" name="health" value="3"/> 3 &emsp;
+        <input type="radio" name="health" value="4"/> 4 &emsp;
+        <input type="radio" name="health" value="5" required/> 5 &emsp;
+        <input type="radio" name="health" value="6"/> 6 &emsp;
+        <input type="radio" name="health" value="7"/> 7 &emsp;
+      </p>
+    </div>
+         <div>
+      <label for="phone">Phone number </label>
+      <p>
+        <input type="radio" name="phone" value="1"/> 1 &emsp;
+        <input type="radio" name="phone" value="2"/> 2 &emsp;
+        <input type="radio" name="phone" required value="3"/> 3 &emsp;
+        <input type="radio" name="phone" value="4"/> 4 &emsp;
+        <input type="radio" name="phone" value="5"/> 5 &emsp;
+        <input type="radio" name="phone" value="6"/> 6 &emsp;
+        <input type="radio" name="phone" value="7"/> 7 &emsp;
+      </p>
+    </div>
+          <div>
+      <label for="home">Home address </label>
+      <p>
+        <input type="radio" name="home" required value="1"/> 1 &emsp;
+        <input type="radio" name="home" value="2"/> 2 &emsp;
+        <input type="radio" name="home" value="3"/> 3 &emsp;
+        <input type="radio" name="home" value="4"/> 4 &emsp;
+        <input type="radio" name="home" value="5"/> 5 &emsp;
+        <input type="radio" name="home" value="6"/> 6 &emsp;
+        <input type="radio" name="home" value="7"/> 7 &emsp;
+      </p>
+    </div>
+   <div>
+      <label for="bank">Amount of money in bank account </label>
+      <p>
+        <input type="radio" name="bank" value="1" required/> 1 &emsp;
+        <input type="radio" name="bank" value="2"/> 2 &emsp;
+        <input type="radio" name="bank" value="3"/> 3 &emsp;
+        <input type="radio" name="bank" value="4"/> 4 &emsp;
+        <input type="radio" name="bank" value="5"/> 5 &emsp;
+        <input type="radio" name="bank" value="6"/> 6 &emsp;
+        <input type="radio" name="bank" value="7"/> 7 &emsp;
+      </p>
+    </div>
+        <div>
+      <label for="ssn">Social Security Number (SSN) </label>
+      <p>
+        <input type="radio" name="ssn" value="1"/> 1 &emsp;
+        <input type="radio" name="ssn" value="2"/> 2 &emsp;
+        <input type="radio" name="ssn" value="3"/> 3 &emsp;
+        <input type="radio" name="ssn" value="4"/> 4 &emsp;
+        <input type="radio" name="ssn" value="5"/> 5 &emsp;
+        <input type="radio" name="ssn" value="6"/> 6 &emsp;
+        <input type="radio" name="ssn" value="7" required/> 7 &emsp;
+      </p>
+    </div>
+           <div>
+      <label for="cc">Credit card number </label>
+      <p>
+        <input type="radio" name="cc" required value="1"/> 1 &emsp;
+        <input type="radio" name="cc" required value="2"/> 2 &emsp;
+        <input type="radio" name="cc" required value="3"/> 3 &emsp;
+        <input type="radio" name="cc" required value="4"/> 4 &emsp;
+        <input type="radio" name="cc" required value="5"/> 5 &emsp;
+        <input type="radio" name="cc" required value="6"/> 6 &emsp;
+        <input type="radio" name="cc" required value="7"/> 7 &emsp;
+
+      </p>
+    </div>
+         </div>
+      </div>
+        <p style="text-align:center;">
+       <button type="sumbit" class="btn btn-info">Continue</button>
+      </p>
+      </form>
+    </div>
+  </main>
+ 
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <main >
+    <body style="padding:30px;">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <div class="alert alert-info" role="alert">
+      <b>Please answer the following questions</b> <br>
+        <p id="description"> </p>
+  <h4 class="alert-heading"></h4> <font size="3"> 
+ 
+     <div class="master-div-style">
+    
+      <form id="survey-form" action="Next.html" method="POST">
+    
+      <label for="age">How old are you? </label>
+      <p>
+        <input type="radio" name="age" value="1" required> Younger than 17 <br>
+        <input type="radio" name="age" value="2"> 18-24 <br>
+        <input type="radio" name="age" value="3"> 25-34 <br>
+        <input type="radio" name="age" value="4"> 35-44 <br>
+        <input type="radio" name="age" value="5"> 45-54 <br>
+        <input type="radio" name="age" value="6"> 55-64 <br>
+        <input type="radio" name="age" value="7"> 65 and up
+      </p>
+    </div>
+
+           <div>
+      <label for="edu"> Level of Education:</label>
+      <p>
+        <input type="radio" name="edu" value="1" required> No high school diploma <br>
+        <input type="radio" name="edu" value="2"> High school diploma <br>
+        <input type="radio" name="edu" value="3"> Professional qualification <br>
+        <input type="radio" name="edu" value="4"> Bachelor degree <br>
+        <input type="radio" name="edu" value="5"> Masters degree and above <br>
+        <input type="radio" name="edu" value="6"> other
+
+      </p>
+    </div>
+
+
+        <div>
+      <label for="user"> Gender: </label>
+      <p>
+        <input type="radio" name="user" value="1" required> Male &emsp;
+        <input type="radio" name="user" value="2"> Female &emsp;
+        <input type="radio" name="user" value="3"> Else
+
+      </p>
+    </div>
+
+  <div>
+      <label for="status">Level of noise that surrounded you while answering this questionnaire: </label>
+      <p>
+        <input type="radio" name="status" value="1" required> No noise &emsp;
+        <input type="radio" name="status" value="2"> Low &emsp;
+        <input type="radio" name="status" value="3"> Medium &emsp;
+        <input type="radio" name="status" value="4"> High &emsp;
+
+      </p>
+    </div>
+ 
+         <div>
+      <label for="apps">  How many people were around you while answering this questionnaire: </label>
+      <p>
+        <input type="radio" name="apps" value="1" required> none &emsp;
+        <input type="radio" name="apps" value="2"> 1-5 &emsp;
+        <input type="radio" name="apps" value="3"> 6-15 &emsp;
+        <input type="radio" name="apps" value="4"> 15+
+
+      </p>
+    </div>
+     </div>
+         
+        <p style="text-align:center;">
+       <button type="submit" class="btn btn-info">Continue</button>
+      </p>
+      </form>
+    </div>
+  </main>
+ 
+</body>
+
+</html>

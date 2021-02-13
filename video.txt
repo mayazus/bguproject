@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  
+  <body style="padding:30px;">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+<div class="alert alert-info" role="alert">
+  <h4 class="alert-heading"></h4> <font size="5"> 
+    <p style="text-align:center;">
+  Watch the video <br/>
+
+</p>
+<iframe width="560" height="315" style="margin-left: auto;
+    margin-right: auto;display: block" src="https://www.youtube.com/embed/JaSe85Mcwp0?autoplay=1&controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>     
+                 
+
+     <p style="text-align:center;">
+       <a href="Control.html"><button type="button" class="btn btn-info">Continue</button></a>
+      </p>
+    
+
+  </body>
+
+</html>

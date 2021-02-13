@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  </head>
+  <body style="padding:30px;">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<div class="alert alert-info" role="alert">
+  <h4 class="alert-heading"></h4> <font size="5"> 
+    <p style="text-align:center;">
+      <b>Please read and sign this consent form in order to continue
+</b> <br> 
+</p> </font>
+ <h4 class="alert-heading"></h4> <font size="3"> 
+1. You are about to participate in the experiment as part of a decision making study.<br>
+2. During the experiment you will be asked to answer a number of questions.<br>
+3. The study and experiment were approved by the Ethics Committee of Ben-Gurion University, Israel.<br>
+4. Confidentiality of each participant's personal identity is guaranteed. There will not be no use of any personal information and data the user provides during the experiment.<br>
+5. The experiment will last about 5 minutes.<br>
+6. You can stop your participation in the experiment at any time. However, not finishing will cause you to not be eligible for any remuneration.<br><br>
+I hereby declare that I have understood all of the foregoing and that I voluntarily gave my consent.<br>
+
+<div class="form-check">
+
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  required name="terms" >
+  <label class="form-check-label" for="defaultCheck1">
+    I Agree </p> <br>
+  </label>
+
+
+ 
+</div>
+
+  
+<script>
+
+function redirect()
+{
+  var checkBox = document.getElementById("defaultCheck1");
+   if (checkBox.checked == true){
+        window.location.href = 'video.html';
+    }
+   else {
+          alert("Please check the 'I Agree' box to indicate that you accept the Terms and Conditions before pressing the continue button.");
+        }     
+}
+
+
+</script>
+
+
+</div> 
+
+      </div>
+    </div>
+           
+                   <p style="text-align:center;">
+  <a onclick="redirect() "><button type="button" class="btn btn-info">Continue</button></a>
+
+     
+             </font>
+           </font>
+  </body>
+
+</html>
